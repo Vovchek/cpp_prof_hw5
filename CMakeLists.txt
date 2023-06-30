@@ -7,7 +7,7 @@ else()
     project(mvc VERSION 0.0.1)
 endif()
 
-configure_file(version.h.in version.h)
+#configure_file(version.h.in version.h)
 
 set(SOURCES main.cpp)
 
